@@ -100,3 +100,14 @@ Kemudian ubah file app/view/about.php seperti berikut
 
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 ![1](https://github.com/miraashntnia/Lab11Web/blob/master/img_lab11/25.png)
+
+# Lab12Web
+```
+                                                 MIRA SHINTANIA
+                                                   312010290
+                                                    TI.20.B2
+```
+## PRAKTIKUM 12 : PHP Framework Lanjutan (CRUD)
+
+### Persiapan
+

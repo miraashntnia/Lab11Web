@@ -110,4 +110,35 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 ## PRAKTIKUM 12 : PHP Framework Lanjutan (CRUD)
 
 ### Persiapan
+Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.
 
+### Membuat Database
+![1](https://user-images.githubusercontent.com/72985112/174717928-87d2cde9-a1fb-4e06-a564-a3e8165090ee.png)
+
+### Membuat Tabel
+![2](https://user-images.githubusercontent.com/72985112/174717993-d95c8dc9-e650-4b03-97a0-0b84a990a864.png)
+
+![3](https://user-images.githubusercontent.com/72985112/174717970-d832536f-3e0b-4aa9-a803-e6cefd753364.png)
+
+### Konfigurasi Koneksi Database
+Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konfigurasi dapat dilakukan dengan du acara, yaitu pada file app/config/database.phpatau menggunakan file .env. Pada praktikum ini kita gunakan konfigurasi pada file .env
+![4](https://user-images.githubusercontent.com/72985112/174718055-9db908c6-95ed-46e8-8fdb-e31beef63b62.png)
+
+### Membuat Model
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php
+![5](https://user-images.githubusercontent.com/72985112/174718112-1b817a0a-bc4b-4a42-8e82-f58053ae8929.png)
+
+### Membuat Controller
+Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers.
+![6](https://user-images.githubusercontent.com/72985112/174718148-b2ecb21e-1c68-4929-b87d-dd5b5b949f05.png)
+
+### Membuat View
+Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru dengan nama index.php. 
+![7](https://user-images.githubusercontent.com/72985112/174718173-2e554aa0-6b52-43b8-9585-1d83c1bf31f2.png)
+![8](https://user-images.githubusercontent.com/72985112/174718254-bff87af9-c8d0-44f3-8fb1-d09829573378.png)
+
+Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
+Kemudian coba tambahkan beberapa data pada database agar dapat ditampilkan datanya
+Refresh kembali browser, sehingga akan ditampilkan hasilnya.
+### Membuat Tampilan Detail Artikel
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller Artikel dengan nama view()

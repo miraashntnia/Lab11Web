@@ -138,7 +138,26 @@ Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat 
 ![8](https://user-images.githubusercontent.com/72985112/174718254-bff87af9-c8d0-44f3-8fb1-d09829573378.png)
 
 Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
+![9](https://user-images.githubusercontent.com/72985112/177474704-fc8d6113-0a7c-401c-95ab-09acd9fc0b58.png)
 Kemudian coba tambahkan beberapa data pada database agar dapat ditampilkan datanya
 Refresh kembali browser, sehingga akan ditampilkan hasilnya.
 ### Membuat Tampilan Detail Artikel
 Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller Artikel dengan nama view()
+![10](https://user-images.githubusercontent.com/72985112/177474709-f437b9e0-1610-4f03-8a70-175c1bc957d0.png)
+![11](https://user-images.githubusercontent.com/72985112/177474715-24d67530-94cb-4c02-8cfa-eb3ef2380d65.png)
+![12](https://user-images.githubusercontent.com/72985112/177474720-23dd5991-9191-4833-93cf-da659c044f69.png)
+![13](https://user-images.githubuser
+![14](https://user-images.githubusercontent.com/
+![16](https://user-images.githubusercontent.com/72985112/177474738-eeb82609-345b-42fa-a63c-db59825b4470.png)
+729
+![15](https://user-images.githubusercontent.com/72985112/177474734-3f55e90d-4f7f-4f6f-8f6b-20ac862ca6e2.png)
+85112/177474723-e9be07b1-2d4b-4a20-9c5d-429e2dc20184.png)
+content.com/72985112/177474721-9743f005-20d2-4438-8265-2c53c481df55.png)
+![17](https://user-images.githubusercontent.com/72985112/177474750-74743b30-171e-4193-9fd2-7c0d9ea13d18.png)
+![18](https://user-images.githubusercontent.com/72985112/177474764-7e07bf3b-5188-44e9-a906-6ec1740e7581.png)
+![19](https://user-images.githubusercontent.com/72985112/177474768-5f0ca538-a8dc-47d9-97e7-bc990f38599f.png)
+![20](https://user-images.githubusercontent.com/72985112/177474771-947a00e9-0fef-44c0-9043-62dd57eee565.png)
+![21](https://user-images.githubusercontent.com/72985112/177474784-8e968ac0-a4cc-41d4-92f7-dd42c60f6dbb.png)
+![22](https://user-images.githubusercontent.com/72985112/177474789-c7b1e9b1-694b-4288-ba91-2503a1d73015.png)
+![23](https://user-images.githubusercontent.com/72985112/177474794-781dd53c-a58a-4bd4-a541-39aa9f70c9ec.png)
+

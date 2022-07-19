@@ -168,29 +168,30 @@ Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berb
 ## PRAKTIKUM 13 : Framework Lanjutan (Model Login)
 
 1. Membuat Tabel User :
+
 ![image](https://user-images.githubusercontent.com/81431392/123540098-20768500-d6f2-11eb-93a6-cb00911e3180.png)
 
 2. Membuat Model User :
+
 ![image](https://user-images.githubusercontent.com/81431392/123540179-937ffb80-d6f2-11eb-818b-482d350a93f9.png)
 
 3. Membuat Controller User :
+
 ![image](https://user-images.githubusercontent.com/81431392/123540385-87486e00-d6f3-11eb-99f1-458b33b7e5fc.png)
 
 4. Membuat View Login :
+
 ![image](https://user-images.githubusercontent.com/81431392/123542712-004dc280-d700-11eb-9d92-211abb9beffd.png)
 
 5. Membuat Database Seeder :
-- jalankan pada CLI php spark make:seeder UserSeeder 
-- edit file Database/Seeds/UserSeeder.php : 
- ![image](https://user-images.githubusercontent.com/81431392/123540730-59642900-d6f5-11eb-9a43-32677bb79179.png)
-
-- lalu jalankan lagi CLI php spark db:seed UserSeeder
+Jalankan pada CLI php spark make:seeder UserSeeder 
+Edit file Database/Seeds/UserSeeder.php : 
+![image](https://user-images.githubusercontent.com/81431392/123540730-59642900-d6f5-11eb-9a43-32677bb79179.png)
+Lalu jalankan lagi CLI php spark db:seed UserSeeder
 hasil outputnya : 
-![image](https://user-images.githubusercontent.com/81431392/123542761-43a83100-d700-11eb-9594-c250764b7d7c.png)
-
-
+![1](https://user-images.githubusercontent.com/72985112/179650388-68a6c28b-c4a4-44d9-9d58-b538ae1ddd09.png)
 Ketika isi email,password maka muncul pada halaman portal admin :
-![image](https://user-images.githubusercontent.com/81431392/123542783-69cdd100-d700-11eb-8c1d-f8ef7f0c9e5a.png)
+![2](https://user-images.githubusercontent.com/72985112/179650397-a6c60cd7-d5f3-461f-bc4b-f543a3977799.png)
 
 6. Menambahkan Auth Filter :
 ![image](https://user-images.githubusercontent.com/81431392/123542912-ea8ccd00-d700-11eb-926f-8b36650305a9.png) 
@@ -202,7 +203,7 @@ Ketika isi email,password maka muncul pada halaman portal admin :
 ![image](https://user-images.githubusercontent.com/81431392/123543075-b9f96300-d701-11eb-9117-82d3145dd762.png) 
 
 Hasil outputnya : 
-![image](https://user-images.githubusercontent.com/81431392/123544719-68ed6d00-d709-11eb-8829-30d641aa2f19.png) 
+![3](https://user-images.githubusercontent.com/72985112/179650400-b0941c1b-0c73-46d8-9b9d-665847a43bc6.png) 
 
 Fungsi Logout : 
 ![image](https://user-images.githubusercontent.com/81431392/123544784-b2d65300-d709-11eb-92d7-2ee02d1adcc6.png)
@@ -218,16 +219,16 @@ Fungsi Logout :
 1. Membuat pagination, yaitu dengan membuka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index seperti berikut.
 ![image](https://user-images.githubusercontent.com/81579730/124349838-7d56cb80-dc1b-11eb-98bb-dd5e5c566fce.png)
 ![image](https://user-images.githubusercontent.com/81579730/124349867-9cedf400-dc1b-11eb-990c-50aa7658df99.png)
-![image](https://user-images.githubusercontent.com/81579730/124349890-a9724c80-dc1b-11eb-8541-ad2d7e9bec7f.png)
+![4](https://user-images.githubusercontent.com/72985112/179650403-d70a5b9f-b9ed-4a96-a577-c4871479d6b7.png)
 
 2. Membuat Pencarian Pencarian data digunakan untuk memfilter data. Saya membuat pencarian data, yaitu dengan membuka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut:
 ![image](https://user-images.githubusercontent.com/81579730/124349838-7d56cb80-dc1b-11eb-98bb-dd5e5c566fce.png)
 ![image](https://user-images.githubusercontent.com/81579730/124350018-4fbe5200-dc1c-11eb-953c-f9b1ca96388e.png)
-![image](https://user-images.githubusercontent.com/81579730/124350023-5cdb4100-dc1c-11eb-95ef-090d15f7d3ca.png)
-![image](https://user-images.githubusercontent.com/81579730/124350030-65337c00-dc1c-11eb-9369-e11887e4930f.png)
+![5](https://user-images.githubusercontent.com/72985112/179650405-300d1a87-98ac-4b3d-afec-86156dc0e4d7.png)
+![6](https://user-images.githubusercontent.com/72985112/179650406-75bc1f55-a4c4-43b2-8fb9-f9f29b7810e5.png)
 
 3. Menambahkan fungsi unggah gambar pada tambah artikel.Dengan cara membuka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
 ![image](https://user-images.githubusercontent.com/81579730/124350076-afb4f880-dc1c-11eb-83b8-b47058099fc6.png)
 ![image](https://user-images.githubusercontent.com/81579730/124350097-d3783e80-dc1c-11eb-8be5-846434b6fab4.png)
-![image](https://user-images.githubusercontent.com/81579730/124350106-e854d200-dc1c-11eb-8d1c-46b0377ebd02.png)
-![image](https://user-images.githubusercontent.com/81579730/124350197-6618dd80-dc1d-11eb-8f9f-e9103221c16a.png)
+![7](https://user-images.githubusercontent.com/72985112/179650409-8fe1e1bc-893d-45cb-8f96-876c9e42cf07.png)
+![8](https://user-images.githubusercontent.com/72985112/179650410-ccc9feab-e0d0-4ba6-b0ae-7554d91ab1f3.png)

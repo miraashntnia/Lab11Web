@@ -146,13 +146,10 @@ Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berb
 ![10](https://user-images.githubusercontent.com/72985112/177474709-f437b9e0-1610-4f03-8a70-175c1bc957d0.png)
 ![11](https://user-images.githubusercontent.com/72985112/177474715-24d67530-94cb-4c02-8cfa-eb3ef2380d65.png)
 ![12](https://user-images.githubusercontent.com/72985112/177474720-23dd5991-9191-4833-93cf-da659c044f69.png)
-![13](https://user-images.githubuser
-![14](https://user-images.githubusercontent.com/
+![13](https://user-images.githubusercontent.com/72985112/177474721-9743f005-20d2-4438-8265-2c53c481df55.png)
+![14](https://user-images.githubusercontent.com/85112/177474723-e9be07b1-2d4b-4a20-9c5d-429e2dc20184.png)
 ![16](https://user-images.githubusercontent.com/72985112/177474738-eeb82609-345b-42fa-a63c-db59825b4470.png)
-729
 ![15](https://user-images.githubusercontent.com/72985112/177474734-3f55e90d-4f7f-4f6f-8f6b-20ac862ca6e2.png)
-85112/177474723-e9be07b1-2d4b-4a20-9c5d-429e2dc20184.png)
-content.com/72985112/177474721-9743f005-20d2-4438-8265-2c53c481df55.png)
 ![17](https://user-images.githubusercontent.com/72985112/177474750-74743b30-171e-4193-9fd2-7c0d9ea13d18.png)
 ![18](https://user-images.githubusercontent.com/72985112/177474764-7e07bf3b-5188-44e9-a906-6ec1740e7581.png)
 ![19](https://user-images.githubusercontent.com/72985112/177474768-5f0ca538-a8dc-47d9-97e7-bc990f38599f.png)
@@ -161,3 +158,76 @@ content.com/72985112/177474721-9743f005-20d2-4438-8265-2c53c481df55.png)
 ![22](https://user-images.githubusercontent.com/72985112/177474789-c7b1e9b1-694b-4288-ba91-2503a1d73015.png)
 ![23](https://user-images.githubusercontent.com/72985112/177474794-781dd53c-a58a-4bd4-a541-39aa9f70c9ec.png)
 
+
+# Lab13Web
+```
+                                                 MIRA SHINTANIA
+                                                   312010290
+                                                    TI.20.B2
+```
+## PRAKTIKUM 13 : Framework Lanjutan (Model Login)
+
+1. Membuat Tabel User :
+![image](https://user-images.githubusercontent.com/81431392/123540098-20768500-d6f2-11eb-93a6-cb00911e3180.png)
+
+2. Membuat Model User :
+![image](https://user-images.githubusercontent.com/81431392/123540179-937ffb80-d6f2-11eb-818b-482d350a93f9.png)
+
+3. Membuat Controller User :
+![image](https://user-images.githubusercontent.com/81431392/123540385-87486e00-d6f3-11eb-99f1-458b33b7e5fc.png)
+
+4. Membuat View Login :
+![image](https://user-images.githubusercontent.com/81431392/123542712-004dc280-d700-11eb-9d92-211abb9beffd.png)
+
+5. Membuat Database Seeder :
+- jalankan pada CLI php spark make:seeder UserSeeder 
+- edit file Database/Seeds/UserSeeder.php : 
+ ![image](https://user-images.githubusercontent.com/81431392/123540730-59642900-d6f5-11eb-9a43-32677bb79179.png)
+
+- lalu jalankan lagi CLI php spark db:seed UserSeeder
+hasil outputnya : 
+![image](https://user-images.githubusercontent.com/81431392/123542761-43a83100-d700-11eb-9594-c250764b7d7c.png)
+
+
+Ketika isi email,password maka muncul pada halaman portal admin :
+![image](https://user-images.githubusercontent.com/81431392/123542783-69cdd100-d700-11eb-8c1d-f8ef7f0c9e5a.png)
+
+6. Menambahkan Auth Filter :
+![image](https://user-images.githubusercontent.com/81431392/123542912-ea8ccd00-d700-11eb-926f-8b36650305a9.png) 
+ 
+7. Konfigurasi file app/Config/Filters.php : 
+![image](https://user-images.githubusercontent.com/81431392/123542978-55d69f00-d701-11eb-9797-780bcd3f0d63.png) 
+
+8. dan konfigurasi app/Config/Routes.php : 
+![image](https://user-images.githubusercontent.com/81431392/123543075-b9f96300-d701-11eb-9117-82d3145dd762.png) 
+
+Hasil outputnya : 
+![image](https://user-images.githubusercontent.com/81431392/123544719-68ed6d00-d709-11eb-8829-30d641aa2f19.png) 
+
+Fungsi Logout : 
+![image](https://user-images.githubusercontent.com/81431392/123544784-b2d65300-d709-11eb-92d7-2ee02d1adcc6.png)
+
+# Lab14Web
+```
+                                                 MIRA SHINTANIA
+                                                   312010290
+                                                    TI.20.B2
+```
+## PRAKTIKUM 14 : Pagination dan Pencarian
+
+1. Membuat pagination, yaitu dengan membuka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index seperti berikut.
+![image](https://user-images.githubusercontent.com/81579730/124349838-7d56cb80-dc1b-11eb-98bb-dd5e5c566fce.png)
+![image](https://user-images.githubusercontent.com/81579730/124349867-9cedf400-dc1b-11eb-990c-50aa7658df99.png)
+![image](https://user-images.githubusercontent.com/81579730/124349890-a9724c80-dc1b-11eb-8541-ad2d7e9bec7f.png)
+
+2. Membuat Pencarian Pencarian data digunakan untuk memfilter data. Saya membuat pencarian data, yaitu dengan membuka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut:
+![image](https://user-images.githubusercontent.com/81579730/124349838-7d56cb80-dc1b-11eb-98bb-dd5e5c566fce.png)
+![image](https://user-images.githubusercontent.com/81579730/124350018-4fbe5200-dc1c-11eb-953c-f9b1ca96388e.png)
+![image](https://user-images.githubusercontent.com/81579730/124350023-5cdb4100-dc1c-11eb-95ef-090d15f7d3ca.png)
+![image](https://user-images.githubusercontent.com/81579730/124350030-65337c00-dc1c-11eb-9369-e11887e4930f.png)
+
+3. Menambahkan fungsi unggah gambar pada tambah artikel.Dengan cara membuka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
+![image](https://user-images.githubusercontent.com/81579730/124350076-afb4f880-dc1c-11eb-83b8-b47058099fc6.png)
+![image](https://user-images.githubusercontent.com/81579730/124350097-d3783e80-dc1c-11eb-8be5-846434b6fab4.png)
+![image](https://user-images.githubusercontent.com/81579730/124350106-e854d200-dc1c-11eb-8d1c-46b0377ebd02.png)
+![image](https://user-images.githubusercontent.com/81579730/124350197-6618dd80-dc1d-11eb-8f9f-e9103221c16a.png)
